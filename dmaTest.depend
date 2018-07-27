@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532681475 source:g:\ccode\dmatest\main.c
+	<stdio.h>
+	<stdlib.h>
+
