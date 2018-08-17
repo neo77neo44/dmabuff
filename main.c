@@ -70,7 +70,10 @@ int main()
 	dump_mem("pkt:",pkt->ptr, pkt->ptrLen);
 	//memcpy(dmaTxBuff, pkt->ptr, pkt->ptrLen);	
 	//dump_mem("dma:",dmaTxBuff, pkt->ptrLen);	
-	
+	/*
+	fc.sof_STEI = ((STEI & 0x0FF0)>>4)| ((STEI & 0x000F)<<8);
+    	fc.sof_DTEI = ((DTEI & 0x0F00)>>8)| ((DTEI & 0x00FF)<<4);
+	*/
 	return 0;
 }
 
